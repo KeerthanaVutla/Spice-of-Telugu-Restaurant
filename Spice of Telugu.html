@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Explore authentic Andhra and Telangana flavors at Spice of Telugu. Enjoy traditional Telugu dishes, spicy biryanis and delicious desserts.">
+
+    <meta name="keywords"
+        content="Spice of Telugu, Telugu Food, Andhra Cuisine, Telangana Food, Biryani, Restaurant Menu">
+
+    <meta name="author" content="Keerthana">
+
+    <link rel="icon" type="image/png" href="./Images R/Spice of Telugu.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Spice of Telugu | Authentic Telugu Restaurant</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: rgb(231, 250, 220);
+        }
+
+        .nav {
+            background-color: rgb(231, 250, 220);
+            padding: 5px 10px;
+            position: sticky;
+            top: 0px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+        }
+
+        .logo img {
+            width: 45px;
+            height: 45px;
+            margin-right: 10px;
+        }
+
+        .logo h2 {
+            font-size: 25px;
+        }
+
+        .logo span {
+            color: red;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 35px;
+        }
+
+        nav ul li {
+            margin-top: 10%;
+            border-radius: 10%;
+            background-color: rgb(177, 239, 141);
+            padding: 10px;
+        }
+
+        nav li:hover {
+            font-weight: bolder;
+            background-color: rgb(122, 234, 57);
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fc0505;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .banner img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+            display: block;
+
+        }
+
+        .Discount {
+            font-size: 20px;
+            text-align: left;
+            position: fixed;
+            top: 90px;
+
+
+        }
+
+        .box h5 {
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 10px;
+            width: 150px;
+            height: 60px;
+            background-color: white;
+            color: rgb(45, 153, 45);
+            border-color: rgb(247, 7, 7);
+            border-style: solid;
+
+
+        }
+
+        .main-heading {
+            text-align: center;
+            color: #762b16;
+            font-size: 35px;
+            margin-top: 40px;
+        }
+
+        .menu-section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu-section h2 {
+            color: rgb(197, 67, 16);
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        .category {
+            color: rgb(173, 77, 36);
+            font-size: 23px;
+            margin-top: 35px;
+        }
+
+        .food-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 20px 0 40px;
+        }
+
+        .food-card {
+            background-color: white;
+            width: 280px;
+            padding: 15px;
+            border-radius: 10px;
+            ;
+        }
+
+
+        .food-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .food-card h3 {
+            color: rgb(102, 39, 39);
+            font-size: 20px;
+            margin-top: 15px;
+        }
+
+        .food-card h4 {
+            color: rgb(102, 39, 39);
+            font-size: 20px;
+            margin-top: 15px;
+        }
+
+
+
+        #about {
+            background-color: rgb(186, 240, 155);
+            padding: 50px 80px;
+            text-align: center;
+        }
+
+        #about h2 {
+            color: rgb(102, 39, 39);
+            font-size: 30px;
+        }
+
+        #about hr {
+            width: 100px;
+            border: 2px solid rgb(187, 109, 21);
+        }
+
+        #about p {
+            font-size: 17px;
+            line-height: 1.8;
+            color: rgb(77, 76, 76);
+            text-align: justify;
+        }
+
+
+        footer {
+            background-color: rgb(17, 112, 17);
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        .footer-links {
+            margin: 20px;
+        }
+
+        .footer-links a {
+            color: rgb(249, 245, 245);
+            text-decoration: none;
+            margin: 15px;
+            font-size: 16px;
+        }
+
+
+
+        .tagline {
+            color: rgb(240, 191, 138);
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="nav" id="home">
+
+        <nav>
+
+            <a href="#home" class="logo">
+
+                <img src="./Images R/Spice of Telugu.png" alt="Spice of Telugu Logo">
+
+                <h2>
+                    <span>Spice</span> of Telugu 🌶️
+                </h2>
+
+            </a>
+
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li>
+                    <a href="./Contactform.html" target="_blank">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </div>
+
+
+    <!-- Home / Banner Section -->
+    <header class="banner">
+
+        <img src="./Images R/Image H1.png" alt="Spice of Telugu Restaurant Banner">
+        <!-- Discount -->
+        <div class="Discount">
+            <div class="box" id="box1">
+
+                <h5> Get 50% OFF on your Birthday</h5>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- Menu Section -->
+    <main id="menu">
+
+        <h1 class="main-heading">Our Menu</h1>
+
+
+        <!-- Starters -->
+        <section class="menu-section">
+
+            <h2>Starters</h2>
+
+            <!-- Veg Starters -->
+            <h3 class="category">Veg Starters</h3>
+
+            <div class="food-container">
+
+                <article class="food-card">
+
+                    <img src="./Images R/gobi 2.jfif" alt="Gobi Manchuria">
+
+                    <h3>Gobi Manchuria</h3>
+
+                    <h4>Price : 250/-</h4>
+
+                </article>
+
+
+                <article class="food-card">
+
+                    <img src="./Images R/corn.jfif" alt="Babycorn Manchuria">
+
+                    <h3>Babycorn Manchuria</h3>
+                    <h4>Price : 280/-</h4>
+
+                </article>
+
+
+                <article class="food-card">
+
+                    <img src="./Images R/paneer.jfif" alt="Paneer 65">
+
+                    <h3>Paneer 65</h3>
+                    <h4>Price : 350/-</h4>
+
+                </article>
+
+            </div>
+
+
+            <!-- Non Veg Starters -->
+            <h3 class="category">Non Veg Starters</h3>
+
+            <div class="food-container">
+
+                <article class="food-card">
+
+                    <img src="./Images R/images.jfif" alt="Chicken Majestic">
+
+                    <h3>Chicken Majestic</h3>
+                    <h4>Price : 350/-</h4>
+
+                </article>
+
+
+                <article class="food-card">
+
+                    <img src="./Images R/fish.jfif" alt="Fish Fry">
+
+                    <h3>Fish Fry</h3>
+                    <h4>Price : 350/-</h4>
+
+                </article>
+
+
+                <article class="food-card">
+
+                    <img src="./Images R/prawns.jfif" alt="Tandoori Prawns">
+
+                    <h3>Tandoori Prawns</h3>
+                    <h4>Price : 350/-</h4>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Main Course -->
+        <section class="menu-section">
+
+            <h2>Main Course</h2>
+
+            <div class="food-container">
+
+                <article class="food-card">
+
+                    <img src="./Images R/paneer b.jfif" alt="Paneer Biryani">
+
+                    <h3>Paneer Biryani</h3>
+                    <h4>Price : 250/-</h4>
+
+                </article>
+
+
+                <article class="food-card">
+
+                    <img src="./Images R/cb.jfif" alt="Chicken Biryani">
+
+                    <h3>Chicken Biryani</h3>
+                    <h4>Price : 250/-</h4>
+
+                </article>
+
+
+                <article class="food-card">
+
+                    <img src="./Images R/prawns b.jfif" alt="Prawns Biryani">
+
+                    <h3>Prawns Biryani</h3>
+                    <h4>Price : 350/-</h4>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Desserts -->
+        <section class="menu-section">
+
+            <h2>Desserts</h2>
+
+            <div class="food-container">
+
+                <article class="food-card">
+
+                    <img src="./Images R/gulab.jfif" alt="Butterscotch Gulab Jamun">
+
+                    <h3>Butterscotch Gulab Jamun</h3>
+                    <h4>Price : 220/-</h4>
+
+                </article>
+
+
+                <article class="food-card">
+
+                    <img src="./Images R/pista.jfif" alt="Pistachio Ice Cream">
+
+                    <h3>Pistachio Ice Cream</h3>
+                    <h4>Price : 280/-</h4>
+
+                </article>
+
+
+                <article class="food-card">
+
+                    <img src="./Images R/almond.jfif" alt="Almond Ice Cream">
+
+                    <h3>Almond Ice Cream</h3>
+                    <h4>Price : 250/-</h4>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- About Us Section -->
+    <section id="about">
+
+        <h2>About Us</h2>
+
+        <hr>
+
+        <p>
+            At Spice of Telugu, we celebrate the fiery spirit,
+            deep-rooted traditions, and rich culinary heritage
+            of the Telugu heartland.
+
+            From the tangy warmth of freshly ground gongura
+            and the bold kick of Guntur chilies to slow-simmered
+            family gravies cooked in traditional style, every
+            recipe honors generations of homestyle cooking.
+
+            We source authentic spices and farm-fresh ingredients
+            to recreate the warmth of a festive feast served
+            on a fresh banana leaf.
+
+            Whether you are savoring our slow-cooked Natu Kodi
+            Pulusu or enjoying the comforting richness of
+            Gutti Vankaya, every bite is a journey through
+            the authentic tastes of Andhra and Telangana.
+        </p>
+
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer id="footer">
+
+        <p>© 2026 Spice of Telugu. All rights reserved.</p>
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+
+            <a href="#menu">Menu</a>
+
+            <a href="#about">About</a>
+
+            <a href="./Contactform.html">Contact</a>
+
+        </div>
+
+        <p class="tagline">
+            Authentic Taste of Telugu Tradition 🌶️
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
